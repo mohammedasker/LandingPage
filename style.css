@@ -1,0 +1,63 @@
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* Header*/
+header {
+	background-color: #ffccb3;
+	margin: 0px;
+	
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: none;
+	color: black;
+}
+
+nav ul {
+	text-decoration: none;
+	text-transform: none;
+	list-style: none;
+	float: right;
+	padding-top: 12px;
+}
+
+nav li {
+	float: left;
+	display: inline;
+	padding-top: 50px;
+	padding: 0 20px 0 20px;
+}
+
+/* Section */
+/* Section 2 */
+/* Section 3 */
+button {
+	margin-bottom: 10px;
+	background-color: #ff0066;
+	color: white;
+	border: none;
+	width: 80px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+nav img {
+	height: 80px;
+	width: 135px;
+}
+
+@media (max-width: 768px;) {
+	p {
+		font-size: 20px;
+	}
+}
+
