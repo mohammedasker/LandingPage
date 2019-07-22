@@ -13,7 +13,15 @@ body {
 header {
 	background-color: #ffccb3;
 	margin: 0px;
-	
+	position: fixed;
+}
+
+.feats {
+	margin-top: 200px;
+}
+
+nav img {
+	float: left;
 }
 
 nav a {
@@ -37,6 +45,7 @@ nav li {
 	padding: 0 20px 0 20px;
 }
 
+
 /* Section */
 /* Section 2 */
 /* Section 3 */
@@ -55,9 +64,34 @@ nav img {
 	width: 135px;
 }
 
+.show1 img {
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+iframe {
+	margin: auto;
+	display: block;
+}
+
+.show2 li {
+	border: black 1px solid;
+	margin-bottom: 20px;
+	list-style: none;
+	text-align: center;
+	box-sizing: border-box;
+}
+
 @media (max-width: 768px;) {
 	p {
 		font-size: 20px;
+	}
+
+	nav ul li {
+		display: inline-block;
 	}
 }
 
