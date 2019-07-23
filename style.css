@@ -1,5 +1,5 @@
 body {
-	font-size: 16px;
+	font-size: 18px;
 	font-family: sans-serif;
 }
 
@@ -7,17 +7,21 @@ body {
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
+	margin-top: 110px;
 }
 
+.menu {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
 /* Header*/
 header {
 	background-color: #ffccb3;
-	margin: 0px;
 	position: fixed;
-}
-
-.feats {
-	margin-top: 200px;
+	top: 0px;
+	right: 0px;
+	width: 100%;
 }
 
 nav img {
@@ -36,6 +40,7 @@ nav ul {
 	list-style: none;
 	float: right;
 	padding-top: 12px;
+	display: inline-block;
 }
 
 nav li {
@@ -44,27 +49,14 @@ nav li {
 	padding-top: 50px;
 	padding: 0 20px 0 20px;
 }
-
-
-/* Section */
-/* Section 2 */
-/* Section 3 */
-button {
-	margin-bottom: 10px;
-	background-color: #ff0066;
-	color: white;
-	border: none;
-	width: 80px;
-	height: 35px;
-	margin-bottom: 10px;
-}
+/* About */
 
 nav img {
 	height: 80px;
 	width: 135px;
 }
 
-.show1 img {
+#about img {
 	width: 100%;
 	max-width: 500px;
 	height: auto;
@@ -77,7 +69,8 @@ iframe {
 	display: block;
 }
 
-.show2 li {
+/* Pricing */
+#pricing li {
 	border: black 1px solid;
 	margin-bottom: 20px;
 	list-style: none;
@@ -85,13 +78,46 @@ iframe {
 	box-sizing: border-box;
 }
 
-@media (max-width: 768px;) {
-	p {
-		font-size: 20px;
-	}
-
-	nav ul li {
-		display: inline-block;
-	}
+/* Email */
+#email {
+	width: 300px;
+	height: 35px;
 }
 
+#submit {
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	border: none;
+	box-sizing: border-box;
+	border-width: 20%;
+	color: white;
+	background-color: #ff874e;
+	padding-bottom: 5px;
+}
+
+#submit:hover {
+	background-color: #ffbb9a;
+}
+
+.container {
+	margin-top: 170px;
+}
+
+#email form input, #submit{
+	width: 85%;
+	margin-top: 10px;
+}
+
+/* Media queries*/
+@media(max-width: 768px){
+nav img,
+nav ul
+{
+		float: none;
+		text-align: center;
+		margin: auto;
+		display: block;
+		width: 70%;
+	}
+}
