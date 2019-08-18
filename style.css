@@ -70,12 +70,23 @@ iframe {
 }
 
 /* Pricing */
+.price-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+}
+
+.price-container div {
+	border: 1px black solid;
+	padding: 10px;
+}
+
+.box {
+	flex-basis: 27%;
+}
+
 #pricing li {
-	border: black 1px solid;
-	margin-bottom: 20px;
 	list-style: none;
-	text-align: center;
-	box-sizing: border-box;
 }
 
 /* Email */
@@ -104,11 +115,6 @@ iframe {
 	margin-top: 170px;
 }
 
-#email form input, #submit{
-	width: 85%;
-	margin-top: 10px;
-}
-
 /* Media queries*/
 @media(max-width: 768px){
 nav img,
@@ -119,5 +125,17 @@ nav ul
 		margin: auto;
 		display: block;
 		width: 70%;
+	}
+	#submit{
+		width: 99%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	#email {
+		width: 98%;
+}
+	.price-container {
+		display: flex;
+		flex-direction: column;
 	}
 }
